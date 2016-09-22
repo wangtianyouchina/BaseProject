@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1431F1F71C11E5F000DA4290 /* WTY_TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431F1F61C11E5F000DA4290 /* WTY_TestView.swift */; };
+		18E67EA31BA6D06800BE0528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67EA21BA6D06800BE0528 /* main.m */; };
+		18E67EA61BA6D06800BE0528 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67EA51BA6D06800BE0528 /* AppDelegate.m */; };
+		18E67EAC1BA6D06800BE0528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E67EAA1BA6D06800BE0528 /* Main.storyboard */; };
+		18E67EAE1BA6D06800BE0528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E67EAD1BA6D06800BE0528 /* Images.xcassets */; };
+		18E67EB11BA6D06800BE0528 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E67EAF1BA6D06800BE0528 /* LaunchScreen.xib */; };
+		C5756E0A9FF6DEF2A426CC32 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF336014974FB1128927BBE /* libPods.a */; };
+		C833CDF21D83B71D0005012E /* WTYNSArrayTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C833CDF11D83B71D0005012E /* WTYNSArrayTestCase.m */; };
+		C83AB46A1D0D30C10034E671 /* WTYThreadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C83AB4691D0D30C10034E671 /* WTYThreadTest.m */; };
+		C83AB46D1D0D30CF0034E671 /* WTYGCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C83AB46C1D0D30CF0034E671 /* WTYGCDTest.m */; };
+		C83AB4701D0D31000034E671 /* WTYOperationQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C83AB46F1D0D31000034E671 /* WTYOperationQueueTest.m */; };
+		C83BE7091CC7394300C25E08 /* WTYClientTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C83BE7081CC7394300C25E08 /* WTYClientTestCase.m */; };
+		C854635E1D2BAA900088A974 /* WTYCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C854635D1D2BAA900088A974 /* WTYCurveView.m */; };
+		C85F768A1CFEDA0400863AAA /* WTYBaseModelTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C85F76891CFEDA0400863AAA /* WTYBaseModelTestCase.m */; };
+		C85FDFC61D018D8900A00921 /* WTYLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C85FDFC51D018D8900A00921 /* WTYLoginModel.m */; };
+		C85FDFC91D018D9C00A00921 /* WTYLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = C85FDFC81D018D9C00A00921 /* WTYLoginView.m */; };
+		C870B41B1D585B3D00C30CC1 /* WTYScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C870B41A1D585B3D00C30CC1 /* WTYScrollViewController.m */; };
+		C870B41E1D585BB300C30CC1 /* WTYTestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C870B41D1D585BB300C30CC1 /* WTYTestTableView.m */; };
+		C870B4211D585CA600C30CC1 /* WTYTestScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C870B4201D585CA600C30CC1 /* WTYTestScrollView.m */; };
+		C874F8691D911A2700B8E1BD /* WTYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C874F8681D911A2700B8E1BD /* WTYTableViewController.m */; };
+		C87643721D110165004FA3F4 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = C87643711D110165004FA3F4 /* Father.m */; };
+		C87643751D110176004FA3F4 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = C87643741D110176004FA3F4 /* Son.m */; };
+		C8803A121D333BB900C969DC /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8803A111D333BB900C969DC /* loading.gif */; };
+		C8803A151D33455900C969DC /* SpokenPracticeGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8803A141D33455900C969DC /* SpokenPracticeGifView.m */; };
+		C8803A181D3353B400C969DC /* WTYRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C8803A171D3353B400C969DC /* WTYRefreshHeader.m */; };
+		C88BD3051D7680D100D140E1 /* WTYNSStringTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C88BD3041D7680D100D140E1 /* WTYNSStringTestCase.m */; };
+		C890BE161CFD308B00554A38 /* WTYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDBB1CFD308900554A38 /* WTYBaseNavigationController.m */; };
+		C890BE171CFD308B00554A38 /* WTYBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDBD1CFD308900554A38 /* WTYBaseTabBarController.m */; };
+		C890BE181CFD308B00554A38 /* WTYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDBF1CFD308900554A38 /* WTYBaseViewController.m */; };
+		C890BE191CFD308B00554A38 /* ZToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDC31CFD308900554A38 /* ZToastView.m */; };
+		C890BE1A1CFD308B00554A38 /* WTYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDC61CFD308900554A38 /* WTYBaseModel.m */; };
+		C890BE1B1CFD308B00554A38 /* WTYBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDC91CFD308900554A38 /* WTYBaseButton.m */; };
+		C890BE1C1CFD308B00554A38 /* WTYBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDCB1CFD308900554A38 /* WTYBaseCollectionView.m */; };
+		C890BE1D1CFD308B00554A38 /* WTYBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDCD1CFD308900554A38 /* WTYBaseCollectionViewCell.m */; };
+		C890BE1E1CFD308B00554A38 /* WTYBaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDCF1CFD308A00554A38 /* WTYBaseImageView.m */; };
+		C890BE1F1CFD308B00554A38 /* WTYBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDD11CFD308A00554A38 /* WTYBaseLabel.m */; };
+		C890BE201CFD308B00554A38 /* WTYBaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDD31CFD308A00554A38 /* WTYBaseScrollView.m */; };
+		C890BE211CFD308B00554A38 /* WTYBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDD51CFD308A00554A38 /* WTYBaseTableView.m */; };
+		C890BE221CFD308B00554A38 /* WTYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDD71CFD308A00554A38 /* WTYBaseTableViewCell.m */; };
+		C890BE231CFD308B00554A38 /* WTYBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDD91CFD308A00554A38 /* WTYBaseTextField.m */; };
+		C890BE241CFD308B00554A38 /* WTYBaseTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDDB1CFD308A00554A38 /* WTYBaseTextView.m */; };
+		C890BE251CFD308B00554A38 /* WTYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDDD1CFD308A00554A38 /* WTYBaseView.m */; };
+		C890BE261CFD308B00554A38 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDE01CFD308A00554A38 /* NSData+ImageContentType.m */; };
+		C890BE271CFD308B00554A38 /* NSDate+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDE21CFD308A00554A38 /* NSDate+Addition.m */; };
+		C890BE281CFD308B00554A38 /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDE41CFD308A00554A38 /* NSDictionary+Additions.m */; };
+		C890BE291CFD308B00554A38 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDE61CFD308A00554A38 /* NSObject+Additions.m */; };
+		C890BE2A1CFD308B00554A38 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDE81CFD308A00554A38 /* NSString+Addition.m */; };
+		C890BE2B1CFD308B00554A38 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDEA1CFD308A00554A38 /* UIImage+Additions.m */; };
+		C890BE2C1CFD308B00554A38 /* UIImage+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDEC1CFD308A00554A38 /* UIImage+Cache.m */; };
+		C890BE2D1CFD308B00554A38 /* UIImage+CompressImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDEE1CFD308A00554A38 /* UIImage+CompressImage.m */; };
+		C890BE2E1CFD308B00554A38 /* UIImage+CreateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDF01CFD308A00554A38 /* UIImage+CreateImage.m */; };
+		C890BE2F1CFD308B00554A38 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDF21CFD308A00554A38 /* UIImage+GIF.m */; };
+		C890BE301CFD308B00554A38 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDF41CFD308A00554A38 /* UIImage+ImageEffects.m */; };
+		C890BE311CFD308B00554A38 /* UIImage+ImagePickerCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDF61CFD308A00554A38 /* UIImage+ImagePickerCrop.m */; };
+		C890BE321CFD308B00554A38 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDF81CFD308A00554A38 /* UIView+Addition.m */; };
+		C890BE331CFD308B00554A38 /* UIView+FormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDFA1CFD308A00554A38 /* UIView+FormAdditions.m */; };
+		C890BE341CFD308B00554A38 /* WTYClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BDFF1CFD308A00554A38 /* WTYClient.m */; };
+		C890BE351CFD308B00554A38 /* WTYGetUserInfoReq.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BE011CFD308A00554A38 /* WTYGetUserInfoReq.m */; };
+		C890BE361CFD308B00554A38 /* WTYHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BE031CFD308A00554A38 /* WTYHTTPRequest.m */; };
+		C890BE371CFD308B00554A38 /* WTYRegisterUserReq.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BE051CFD308A00554A38 /* WTYRegisterUserReq.m */; };
+		C890BE381CFD308B00554A38 /* WTYUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BE071CFD308A00554A38 /* WTYUserInfo.m */; };
+		C890BE391CFD308B00554A38 /* WTYBlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C890BE0A1CFD308A00554A38 /* WTYBlockTest.m */; };
+		C8C8BF821CFD6BF500DBBB70 /* WTYLoginSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8BF7B1CFD6BF500DBBB70 /* WTYLoginSuccessViewController.m */; };
+		C8C8BF831CFD6BF500DBBB70 /* WTYLoginSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8BF7B1CFD6BF500DBBB70 /* WTYLoginSuccessViewController.m */; };
+		C8C8BF841CFD6BF500DBBB70 /* WTYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8BF7D1CFD6BF500DBBB70 /* WTYLoginViewController.m */; };
+		C8C8BF851CFD6BF500DBBB70 /* WTYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8BF7D1CFD6BF500DBBB70 /* WTYLoginViewController.m */; };
+		C8C8BF861CFD6BF500DBBB70 /* WTYRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8BF7F1CFD6BF500DBBB70 /* WTYRegisterViewController.m */; };
+		C8C8BF871CFD6BF500DBBB70 /* WTYRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8BF7F1CFD6BF500DBBB70 /* WTYRegisterViewController.m */; };
+		C8DA792B1D12906E0092D24B /* image.txt in Resources */ = {isa = PBXBuildFile; fileRef = C8DA792A1D12906E0092D24B /* image.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E67EB71BA6D06800BE0528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E67E951BA6D06800BE0528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E67E9C1BA6D06800BE0528;
+			remoteInfo = WTYBaseProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1431F1F51C11E5F000DA4290 /* WTYBaseProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WTYBaseProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		1431F1F61C11E5F000DA4290 /* WTY_TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTY_TestView.swift; sourceTree = "<group>"; };
+		18E67E9D1BA6D06800BE0528 /* WTYBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTYBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E67EA11BA6D06800BE0528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E67EA21BA6D06800BE0528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E67EA41BA6D06800BE0528 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E67EA51BA6D06800BE0528 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E67EAB1BA6D06800BE0528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E67EAD1BA6D06800BE0528 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18E67EB01BA6D06800BE0528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18E67EB61BA6D06800BE0528 /* WTYBaseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTYBaseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E67EBB1BA6D06800BE0528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF336014974FB1128927BBE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12F644714719E9703BC42CA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C833CDF11D83B71D0005012E /* WTYNSArrayTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYNSArrayTestCase.m; sourceTree = "<group>"; };
+		C83AB4681D0D30C10034E671 /* WTYThreadTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYThreadTest.h; sourceTree = "<group>"; };
+		C83AB4691D0D30C10034E671 /* WTYThreadTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYThreadTest.m; sourceTree = "<group>"; };
+		C83AB46B1D0D30CF0034E671 /* WTYGCDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYGCDTest.h; sourceTree = "<group>"; };
+		C83AB46C1D0D30CF0034E671 /* WTYGCDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYGCDTest.m; sourceTree = "<group>"; };
+		C83AB46E1D0D31000034E671 /* WTYOperationQueueTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYOperationQueueTest.h; sourceTree = "<group>"; };
+		C83AB46F1D0D31000034E671 /* WTYOperationQueueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYOperationQueueTest.m; sourceTree = "<group>"; };
+		C83BE7081CC7394300C25E08 /* WTYClientTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYClientTestCase.m; sourceTree = "<group>"; };
+		C854635C1D2BAA900088A974 /* WTYCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYCurveView.h; sourceTree = "<group>"; };
+		C854635D1D2BAA900088A974 /* WTYCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYCurveView.m; sourceTree = "<group>"; };
+		C85F76891CFEDA0400863AAA /* WTYBaseModelTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseModelTestCase.m; sourceTree = "<group>"; };
+		C85FDFC41D018D8900A00921 /* WTYLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYLoginModel.h; sourceTree = "<group>"; };
+		C85FDFC51D018D8900A00921 /* WTYLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYLoginModel.m; sourceTree = "<group>"; };
+		C85FDFC71D018D9C00A00921 /* WTYLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYLoginView.h; sourceTree = "<group>"; };
+		C85FDFC81D018D9C00A00921 /* WTYLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYLoginView.m; sourceTree = "<group>"; };
+		C870B4191D585B3D00C30CC1 /* WTYScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYScrollViewController.h; sourceTree = "<group>"; };
+		C870B41A1D585B3D00C30CC1 /* WTYScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYScrollViewController.m; sourceTree = "<group>"; };
+		C870B41C1D585BB300C30CC1 /* WTYTestTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYTestTableView.h; sourceTree = "<group>"; };
+		C870B41D1D585BB300C30CC1 /* WTYTestTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYTestTableView.m; sourceTree = "<group>"; };
+		C870B41F1D585CA600C30CC1 /* WTYTestScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYTestScrollView.h; sourceTree = "<group>"; };
+		C870B4201D585CA600C30CC1 /* WTYTestScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYTestScrollView.m; sourceTree = "<group>"; };
+		C874F8671D911A2700B8E1BD /* WTYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYTableViewController.h; sourceTree = "<group>"; };
+		C874F8681D911A2700B8E1BD /* WTYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYTableViewController.m; sourceTree = "<group>"; };
+		C87643701D110165004FA3F4 /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		C87643711D110165004FA3F4 /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		C87643731D110176004FA3F4 /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		C87643741D110176004FA3F4 /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		C8803A111D333BB900C969DC /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		C8803A131D33455900C969DC /* SpokenPracticeGifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpokenPracticeGifView.h; sourceTree = "<group>"; };
+		C8803A141D33455900C969DC /* SpokenPracticeGifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpokenPracticeGifView.m; sourceTree = "<group>"; };
+		C8803A161D3353B400C969DC /* WTYRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYRefreshHeader.h; sourceTree = "<group>"; };
+		C8803A171D3353B400C969DC /* WTYRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYRefreshHeader.m; sourceTree = "<group>"; };
+		C88BD3041D7680D100D140E1 /* WTYNSStringTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYNSStringTestCase.m; sourceTree = "<group>"; };
+		C890BDBA1CFD308900554A38 /* WTYBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseNavigationController.h; sourceTree = "<group>"; };
+		C890BDBB1CFD308900554A38 /* WTYBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseNavigationController.m; sourceTree = "<group>"; };
+		C890BDBC1CFD308900554A38 /* WTYBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseTabBarController.h; sourceTree = "<group>"; };
+		C890BDBD1CFD308900554A38 /* WTYBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseTabBarController.m; sourceTree = "<group>"; };
+		C890BDBE1CFD308900554A38 /* WTYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseViewController.h; sourceTree = "<group>"; };
+		C890BDBF1CFD308900554A38 /* WTYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseViewController.m; sourceTree = "<group>"; };
+		C890BDC21CFD308900554A38 /* ZToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZToastView.h; sourceTree = "<group>"; };
+		C890BDC31CFD308900554A38 /* ZToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZToastView.m; sourceTree = "<group>"; };
+		C890BDC51CFD308900554A38 /* WTYBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseModel.h; sourceTree = "<group>"; };
+		C890BDC61CFD308900554A38 /* WTYBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseModel.m; sourceTree = "<group>"; };
+		C890BDC81CFD308900554A38 /* WTYBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseButton.h; sourceTree = "<group>"; };
+		C890BDC91CFD308900554A38 /* WTYBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseButton.m; sourceTree = "<group>"; };
+		C890BDCA1CFD308900554A38 /* WTYBaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseCollectionView.h; sourceTree = "<group>"; };
+		C890BDCB1CFD308900554A38 /* WTYBaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseCollectionView.m; sourceTree = "<group>"; };
+		C890BDCC1CFD308900554A38 /* WTYBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		C890BDCD1CFD308900554A38 /* WTYBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		C890BDCE1CFD308A00554A38 /* WTYBaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseImageView.h; sourceTree = "<group>"; };
+		C890BDCF1CFD308A00554A38 /* WTYBaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseImageView.m; sourceTree = "<group>"; };
+		C890BDD01CFD308A00554A38 /* WTYBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseLabel.h; sourceTree = "<group>"; };
+		C890BDD11CFD308A00554A38 /* WTYBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseLabel.m; sourceTree = "<group>"; };
+		C890BDD21CFD308A00554A38 /* WTYBaseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseScrollView.h; sourceTree = "<group>"; };
+		C890BDD31CFD308A00554A38 /* WTYBaseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseScrollView.m; sourceTree = "<group>"; };
+		C890BDD41CFD308A00554A38 /* WTYBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseTableView.h; sourceTree = "<group>"; };
+		C890BDD51CFD308A00554A38 /* WTYBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseTableView.m; sourceTree = "<group>"; };
+		C890BDD61CFD308A00554A38 /* WTYBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseTableViewCell.h; sourceTree = "<group>"; };
+		C890BDD71CFD308A00554A38 /* WTYBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseTableViewCell.m; sourceTree = "<group>"; };
+		C890BDD81CFD308A00554A38 /* WTYBaseTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseTextField.h; sourceTree = "<group>"; };
+		C890BDD91CFD308A00554A38 /* WTYBaseTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseTextField.m; sourceTree = "<group>"; };
+		C890BDDA1CFD308A00554A38 /* WTYBaseTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseTextView.h; sourceTree = "<group>"; };
+		C890BDDB1CFD308A00554A38 /* WTYBaseTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseTextView.m; sourceTree = "<group>"; };
+		C890BDDC1CFD308A00554A38 /* WTYBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseView.h; sourceTree = "<group>"; };
+		C890BDDD1CFD308A00554A38 /* WTYBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseView.m; sourceTree = "<group>"; };
+		C890BDDF1CFD308A00554A38 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		C890BDE01CFD308A00554A38 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		C890BDE11CFD308A00554A38 /* NSDate+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Addition.h"; sourceTree = "<group>"; };
+		C890BDE21CFD308A00554A38 /* NSDate+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Addition.m"; sourceTree = "<group>"; };
+		C890BDE31CFD308A00554A38 /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Additions.h"; sourceTree = "<group>"; };
+		C890BDE41CFD308A00554A38 /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Additions.m"; sourceTree = "<group>"; };
+		C890BDE51CFD308A00554A38 /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		C890BDE61CFD308A00554A38 /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+		C890BDE71CFD308A00554A38 /* NSString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
+		C890BDE81CFD308A00554A38 /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
+		C890BDE91CFD308A00554A38 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		C890BDEA1CFD308A00554A38 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		C890BDEB1CFD308A00554A38 /* UIImage+Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Cache.h"; sourceTree = "<group>"; };
+		C890BDEC1CFD308A00554A38 /* UIImage+Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Cache.m"; sourceTree = "<group>"; };
+		C890BDED1CFD308A00554A38 /* UIImage+CompressImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CompressImage.h"; sourceTree = "<group>"; };
+		C890BDEE1CFD308A00554A38 /* UIImage+CompressImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CompressImage.m"; sourceTree = "<group>"; };
+		C890BDEF1CFD308A00554A38 /* UIImage+CreateImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CreateImage.h"; sourceTree = "<group>"; };
+		C890BDF01CFD308A00554A38 /* UIImage+CreateImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CreateImage.m"; sourceTree = "<group>"; };
+		C890BDF11CFD308A00554A38 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		C890BDF21CFD308A00554A38 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		C890BDF31CFD308A00554A38 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		C890BDF41CFD308A00554A38 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		C890BDF51CFD308A00554A38 /* UIImage+ImagePickerCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImagePickerCrop.h"; sourceTree = "<group>"; };
+		C890BDF61CFD308A00554A38 /* UIImage+ImagePickerCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImagePickerCrop.m"; sourceTree = "<group>"; };
+		C890BDF71CFD308A00554A38 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		C890BDF81CFD308A00554A38 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		C890BDF91CFD308A00554A38 /* UIView+FormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FormAdditions.h"; sourceTree = "<group>"; };
+		C890BDFA1CFD308A00554A38 /* UIView+FormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FormAdditions.m"; sourceTree = "<group>"; };
+		C890BDFE1CFD308A00554A38 /* WTYClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYClient.h; sourceTree = "<group>"; };
+		C890BDFF1CFD308A00554A38 /* WTYClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYClient.m; sourceTree = "<group>"; };
+		C890BE001CFD308A00554A38 /* WTYGetUserInfoReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYGetUserInfoReq.h; sourceTree = "<group>"; };
+		C890BE011CFD308A00554A38 /* WTYGetUserInfoReq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYGetUserInfoReq.m; sourceTree = "<group>"; };
+		C890BE021CFD308A00554A38 /* WTYHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYHTTPRequest.h; sourceTree = "<group>"; };
+		C890BE031CFD308A00554A38 /* WTYHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYHTTPRequest.m; sourceTree = "<group>"; };
+		C890BE041CFD308A00554A38 /* WTYRegisterUserReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYRegisterUserReq.h; sourceTree = "<group>"; };
+		C890BE051CFD308A00554A38 /* WTYRegisterUserReq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYRegisterUserReq.m; sourceTree = "<group>"; };
+		C890BE061CFD308A00554A38 /* WTYUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYUserInfo.h; sourceTree = "<group>"; };
+		C890BE071CFD308A00554A38 /* WTYUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYUserInfo.m; sourceTree = "<group>"; };
+		C890BE091CFD308A00554A38 /* WTYBlockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBlockTest.h; sourceTree = "<group>"; };
+		C890BE0A1CFD308A00554A38 /* WTYBlockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBlockTest.m; sourceTree = "<group>"; };
+		C8C8BF761CFD56BB00DBBB70 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		C8C8BF7A1CFD6BF500DBBB70 /* WTYLoginSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYLoginSuccessViewController.h; sourceTree = "<group>"; };
+		C8C8BF7B1CFD6BF500DBBB70 /* WTYLoginSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYLoginSuccessViewController.m; sourceTree = "<group>"; };
+		C8C8BF7C1CFD6BF500DBBB70 /* WTYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYLoginViewController.h; sourceTree = "<group>"; };
+		C8C8BF7D1CFD6BF500DBBB70 /* WTYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYLoginViewController.m; sourceTree = "<group>"; };
+		C8C8BF7E1CFD6BF500DBBB70 /* WTYRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYRegisterViewController.h; sourceTree = "<group>"; };
+		C8C8BF7F1CFD6BF500DBBB70 /* WTYRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYRegisterViewController.m; sourceTree = "<group>"; };
+		C8DA792A1D12906E0092D24B /* image.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = image.txt; sourceTree = "<group>"; };
+		F64634F7699236501697CAAE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E67E9A1BA6D06800BE0528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5756E0A9FF6DEF2A426CC32 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E67EB31BA6D06800BE0528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E67E941BA6D06800BE0528 = {
+			isa = PBXGroup;
+			children = (
+				18E67E9F1BA6D06800BE0528 /* WTYBaseProject */,
+				18E67EB91BA6D06800BE0528 /* WTYBaseProjectTests */,
+				18E67E9E1BA6D06800BE0528 /* Products */,
+				F2AEF53F7113104DABEF7C89 /* Pods */,
+				24260D7B9FACBA7061D57DBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18E67E9E1BA6D06800BE0528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E67E9D1BA6D06800BE0528 /* WTYBaseProject.app */,
+				18E67EB61BA6D06800BE0528 /* WTYBaseProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E67E9F1BA6D06800BE0528 /* WTYBaseProject */ = {
+			isa = PBXGroup;
+			children = (
+				18E67EA41BA6D06800BE0528 /* AppDelegate.h */,
+				18E67EA51BA6D06800BE0528 /* AppDelegate.m */,
+				C8DA792A1D12906E0092D24B /* image.txt */,
+				C8C8BF771CFD6BF500DBBB70 /* Modules */,
+				1431F1F61C11E5F000DA4290 /* WTY_TestView.swift */,
+				C890BDB71CFD308900554A38 /* common */,
+				18E67EAA1BA6D06800BE0528 /* Main.storyboard */,
+				18E67EAD1BA6D06800BE0528 /* Images.xcassets */,
+				18E67EAF1BA6D06800BE0528 /* LaunchScreen.xib */,
+				18E67EA01BA6D06800BE0528 /* Supporting Files */,
+				1431F1F51C11E5F000DA4290 /* WTYBaseProject-Bridging-Header.h */,
+			);
+			path = WTYBaseProject;
+			sourceTree = "<group>";
+		};
+		18E67EA01BA6D06800BE0528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E67EA11BA6D06800BE0528 /* Info.plist */,
+				18E67EA21BA6D06800BE0528 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E67EB91BA6D06800BE0528 /* WTYBaseProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E67EBA1BA6D06800BE0528 /* Supporting Files */,
+				C83BE7081CC7394300C25E08 /* WTYClientTestCase.m */,
+				C85F76891CFEDA0400863AAA /* WTYBaseModelTestCase.m */,
+				C88BD3041D7680D100D140E1 /* WTYNSStringTestCase.m */,
+				C833CDF11D83B71D0005012E /* WTYNSArrayTestCase.m */,
+			);
+			path = WTYBaseProjectTests;
+			sourceTree = "<group>";
+		};
+		18E67EBA1BA6D06800BE0528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E67EBB1BA6D06800BE0528 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24260D7B9FACBA7061D57DBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF336014974FB1128927BBE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C874F8631D91174B00B8E1BD /* home */ = {
+			isa = PBXGroup;
+			children = (
+				C874F8641D91174B00B8E1BD /* controller */,
+				C874F8651D91174B00B8E1BD /* model */,
+				C874F8661D91174B00B8E1BD /* view */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		C874F8641D91174B00B8E1BD /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C874F8671D911A2700B8E1BD /* WTYTableViewController.h */,
+				C874F8681D911A2700B8E1BD /* WTYTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C874F8651D91174B00B8E1BD /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C874F8661D91174B00B8E1BD /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C890BDB71CFD308900554A38 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C8C8BF761CFD56BB00DBBB70 /* Constant.h */,
+				C890BDB81CFD308900554A38 /* BaseClass */,
+				C890BDDE1CFD308A00554A38 /* Categories */,
+				C890BDFC1CFD308A00554A38 /* Network */,
+				C890BE081CFD308A00554A38 /* Test */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		C890BDB81CFD308900554A38 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				C890BDB91CFD308900554A38 /* controller */,
+				C890BDC01CFD308900554A38 /* customView */,
+				C890BDC41CFD308900554A38 /* model */,
+				C890BDC71CFD308900554A38 /* view */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		C890BDB91CFD308900554A38 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C890BDBA1CFD308900554A38 /* WTYBaseNavigationController.h */,
+				C890BDBB1CFD308900554A38 /* WTYBaseNavigationController.m */,
+				C890BDBC1CFD308900554A38 /* WTYBaseTabBarController.h */,
+				C890BDBD1CFD308900554A38 /* WTYBaseTabBarController.m */,
+				C890BDBE1CFD308900554A38 /* WTYBaseViewController.h */,
+				C890BDBF1CFD308900554A38 /* WTYBaseViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C890BDC01CFD308900554A38 /* customView */ = {
+			isa = PBXGroup;
+			children = (
+				C890BDC11CFD308900554A38 /* ZToastView */,
+			);
+			path = customView;
+			sourceTree = "<group>";
+		};
+		C890BDC11CFD308900554A38 /* ZToastView */ = {
+			isa = PBXGroup;
+			children = (
+				C890BDC21CFD308900554A38 /* ZToastView.h */,
+				C890BDC31CFD308900554A38 /* ZToastView.m */,
+			);
+			path = ZToastView;
+			sourceTree = "<group>";
+		};
+		C890BDC41CFD308900554A38 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C890BDC51CFD308900554A38 /* WTYBaseModel.h */,
+				C890BDC61CFD308900554A38 /* WTYBaseModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C890BDC71CFD308900554A38 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C890BDC81CFD308900554A38 /* WTYBaseButton.h */,
+				C890BDC91CFD308900554A38 /* WTYBaseButton.m */,
+				C890BDCA1CFD308900554A38 /* WTYBaseCollectionView.h */,
+				C890BDCB1CFD308900554A38 /* WTYBaseCollectionView.m */,
+				C890BDCC1CFD308900554A38 /* WTYBaseCollectionViewCell.h */,
+				C890BDCD1CFD308900554A38 /* WTYBaseCollectionViewCell.m */,
+				C890BDCE1CFD308A00554A38 /* WTYBaseImageView.h */,
+				C890BDCF1CFD308A00554A38 /* WTYBaseImageView.m */,
+				C890BDD01CFD308A00554A38 /* WTYBaseLabel.h */,
+				C890BDD11CFD308A00554A38 /* WTYBaseLabel.m */,
+				C890BDD21CFD308A00554A38 /* WTYBaseScrollView.h */,
+				C890BDD31CFD308A00554A38 /* WTYBaseScrollView.m */,
+				C890BDD41CFD308A00554A38 /* WTYBaseTableView.h */,
+				C890BDD51CFD308A00554A38 /* WTYBaseTableView.m */,
+				C890BDD61CFD308A00554A38 /* WTYBaseTableViewCell.h */,
+				C890BDD71CFD308A00554A38 /* WTYBaseTableViewCell.m */,
+				C890BDD81CFD308A00554A38 /* WTYBaseTextField.h */,
+				C890BDD91CFD308A00554A38 /* WTYBaseTextField.m */,
+				C890BDDA1CFD308A00554A38 /* WTYBaseTextView.h */,
+				C890BDDB1CFD308A00554A38 /* WTYBaseTextView.m */,
+				C890BDDC1CFD308A00554A38 /* WTYBaseView.h */,
+				C890BDDD1CFD308A00554A38 /* WTYBaseView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C890BDDE1CFD308A00554A38 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C890BDDF1CFD308A00554A38 /* NSData+ImageContentType.h */,
+				C890BDE01CFD308A00554A38 /* NSData+ImageContentType.m */,
+				C890BDE11CFD308A00554A38 /* NSDate+Addition.h */,
+				C890BDE21CFD308A00554A38 /* NSDate+Addition.m */,
+				C890BDE31CFD308A00554A38 /* NSDictionary+Additions.h */,
+				C890BDE41CFD308A00554A38 /* NSDictionary+Additions.m */,
+				C890BDE51CFD308A00554A38 /* NSObject+Additions.h */,
+				C890BDE61CFD308A00554A38 /* NSObject+Additions.m */,
+				C890BDE71CFD308A00554A38 /* NSString+Addition.h */,
+				C890BDE81CFD308A00554A38 /* NSString+Addition.m */,
+				C890BDE91CFD308A00554A38 /* UIImage+Additions.h */,
+				C890BDEA1CFD308A00554A38 /* UIImage+Additions.m */,
+				C890BDEB1CFD308A00554A38 /* UIImage+Cache.h */,
+				C890BDEC1CFD308A00554A38 /* UIImage+Cache.m */,
+				C890BDED1CFD308A00554A38 /* UIImage+CompressImage.h */,
+				C890BDEE1CFD308A00554A38 /* UIImage+CompressImage.m */,
+				C890BDEF1CFD308A00554A38 /* UIImage+CreateImage.h */,
+				C890BDF01CFD308A00554A38 /* UIImage+CreateImage.m */,
+				C890BDF11CFD308A00554A38 /* UIImage+GIF.h */,
+				C890BDF21CFD308A00554A38 /* UIImage+GIF.m */,
+				C890BDF31CFD308A00554A38 /* UIImage+ImageEffects.h */,
+				C890BDF41CFD308A00554A38 /* UIImage+ImageEffects.m */,
+				C890BDF51CFD308A00554A38 /* UIImage+ImagePickerCrop.h */,
+				C890BDF61CFD308A00554A38 /* UIImage+ImagePickerCrop.m */,
+				C890BDF71CFD308A00554A38 /* UIView+Addition.h */,
+				C890BDF81CFD308A00554A38 /* UIView+Addition.m */,
+				C890BDF91CFD308A00554A38 /* UIView+FormAdditions.h */,
+				C890BDFA1CFD308A00554A38 /* UIView+FormAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C890BDFC1CFD308A00554A38 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C890BDFD1CFD308A00554A38 /* interface */,
+				C890BDFE1CFD308A00554A38 /* WTYClient.h */,
+				C890BDFF1CFD308A00554A38 /* WTYClient.m */,
+				C890BE001CFD308A00554A38 /* WTYGetUserInfoReq.h */,
+				C890BE011CFD308A00554A38 /* WTYGetUserInfoReq.m */,
+				C890BE021CFD308A00554A38 /* WTYHTTPRequest.h */,
+				C890BE031CFD308A00554A38 /* WTYHTTPRequest.m */,
+				C890BE041CFD308A00554A38 /* WTYRegisterUserReq.h */,
+				C890BE051CFD308A00554A38 /* WTYRegisterUserReq.m */,
+				C890BE061CFD308A00554A38 /* WTYUserInfo.h */,
+				C890BE071CFD308A00554A38 /* WTYUserInfo.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C890BDFD1CFD308A00554A38 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interface;
+			sourceTree = "<group>";
+		};
+		C890BE081CFD308A00554A38 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				C890BE091CFD308A00554A38 /* WTYBlockTest.h */,
+				C890BE0A1CFD308A00554A38 /* WTYBlockTest.m */,
+				C83AB4681D0D30C10034E671 /* WTYThreadTest.h */,
+				C83AB4691D0D30C10034E671 /* WTYThreadTest.m */,
+				C83AB46B1D0D30CF0034E671 /* WTYGCDTest.h */,
+				C83AB46C1D0D30CF0034E671 /* WTYGCDTest.m */,
+				C83AB46E1D0D31000034E671 /* WTYOperationQueueTest.h */,
+				C83AB46F1D0D31000034E671 /* WTYOperationQueueTest.m */,
+				C87643701D110165004FA3F4 /* Father.h */,
+				C87643711D110165004FA3F4 /* Father.m */,
+				C87643731D110176004FA3F4 /* Son.h */,
+				C87643741D110176004FA3F4 /* Son.m */,
+				C870B4191D585B3D00C30CC1 /* WTYScrollViewController.h */,
+				C870B41A1D585B3D00C30CC1 /* WTYScrollViewController.m */,
+				C870B41C1D585BB300C30CC1 /* WTYTestTableView.h */,
+				C870B41D1D585BB300C30CC1 /* WTYTestTableView.m */,
+				C870B41F1D585CA600C30CC1 /* WTYTestScrollView.h */,
+				C870B4201D585CA600C30CC1 /* WTYTestScrollView.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		C8C8BF771CFD6BF500DBBB70 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C874F8631D91174B00B8E1BD /* home */,
+				C8C8BF781CFD6BF500DBBB70 /* login_register */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C8C8BF781CFD6BF500DBBB70 /* login_register */ = {
+			isa = PBXGroup;
+			children = (
+				C8C8BF791CFD6BF500DBBB70 /* controller */,
+				C8C8BF801CFD6BF500DBBB70 /* model */,
+				C8C8BF811CFD6BF500DBBB70 /* view */,
+			);
+			path = login_register;
+			sourceTree = "<group>";
+		};
+		C8C8BF791CFD6BF500DBBB70 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8C8BF7A1CFD6BF500DBBB70 /* WTYLoginSuccessViewController.h */,
+				C8C8BF7B1CFD6BF500DBBB70 /* WTYLoginSuccessViewController.m */,
+				C8803A111D333BB900C969DC /* loading.gif */,
+				C8803A131D33455900C969DC /* SpokenPracticeGifView.h */,
+				C8803A141D33455900C969DC /* SpokenPracticeGifView.m */,
+				C8C8BF7C1CFD6BF500DBBB70 /* WTYLoginViewController.h */,
+				C8C8BF7D1CFD6BF500DBBB70 /* WTYLoginViewController.m */,
+				C8C8BF7E1CFD6BF500DBBB70 /* WTYRegisterViewController.h */,
+				C8C8BF7F1CFD6BF500DBBB70 /* WTYRegisterViewController.m */,
+				C8803A161D3353B400C969DC /* WTYRefreshHeader.h */,
+				C8803A171D3353B400C969DC /* WTYRefreshHeader.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C8C8BF801CFD6BF500DBBB70 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C85FDFC41D018D8900A00921 /* WTYLoginModel.h */,
+				C85FDFC51D018D8900A00921 /* WTYLoginModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C8C8BF811CFD6BF500DBBB70 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C85FDFC71D018D9C00A00921 /* WTYLoginView.h */,
+				C85FDFC81D018D9C00A00921 /* WTYLoginView.m */,
+				C854635C1D2BAA900088A974 /* WTYCurveView.h */,
+				C854635D1D2BAA900088A974 /* WTYCurveView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F2AEF53F7113104DABEF7C89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B12F644714719E9703BC42CA /* Pods.debug.xcconfig */,
+				F64634F7699236501697CAAE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E67E9C1BA6D06800BE0528 /* WTYBaseProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E67EC01BA6D06800BE0528 /* Build configuration list for PBXNativeTarget "WTYBaseProject" */;
+			buildPhases = (
+				2345F022987ED913B13ADB8B /* Check Pods Manifest.lock */,
+				18E67E991BA6D06800BE0528 /* Sources */,
+				18E67E9A1BA6D06800BE0528 /* Frameworks */,
+				18E67E9B1BA6D06800BE0528 /* Resources */,
+				03A59E4E95EF50BC84B5D0E0 /* Copy Pods Resources */,
+				21D0271FC778FE149C50D771 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTYBaseProject;
+			productName = WTYBaseProject;
+			productReference = 18E67E9D1BA6D06800BE0528 /* WTYBaseProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E67EB51BA6D06800BE0528 /* WTYBaseProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E67EC31BA6D06800BE0528 /* Build configuration list for PBXNativeTarget "WTYBaseProjectTests" */;
+			buildPhases = (
+				18E67EB21BA6D06800BE0528 /* Sources */,
+				18E67EB31BA6D06800BE0528 /* Frameworks */,
+				18E67EB41BA6D06800BE0528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E67EB81BA6D06800BE0528 /* PBXTargetDependency */,
+			);
+			name = WTYBaseProjectTests;
+			productName = WTYBaseProjectTests;
+			productReference = 18E67EB61BA6D06800BE0528 /* WTYBaseProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E67E951BA6D06800BE0528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = xiaomaguohe;
+				TargetAttributes = {
+					18E67E9C1BA6D06800BE0528 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					18E67EB51BA6D06800BE0528 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 18E67E9C1BA6D06800BE0528;
+					};
+				};
+			};
+			buildConfigurationList = 18E67E981BA6D06800BE0528 /* Build configuration list for PBXProject "WTYBaseProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E67E941BA6D06800BE0528;
+			productRefGroup = 18E67E9E1BA6D06800BE0528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E67E9C1BA6D06800BE0528 /* WTYBaseProject */,
+				18E67EB51BA6D06800BE0528 /* WTYBaseProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E67E9B1BA6D06800BE0528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E67EAC1BA6D06800BE0528 /* Main.storyboard in Resources */,
+				18E67EB11BA6D06800BE0528 /* LaunchScreen.xib in Resources */,
+				C8803A121D333BB900C969DC /* loading.gif in Resources */,
+				C8DA792B1D12906E0092D24B /* image.txt in Resources */,
+				18E67EAE1BA6D06800BE0528 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E67EB41BA6D06800BE0528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A59E4E95EF50BC84B5D0E0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21D0271FC778FE149C50D771 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2345F022987ED913B13ADB8B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E67E991BA6D06800BE0528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C890BE331CFD308B00554A38 /* UIView+FormAdditions.m in Sources */,
+				C870B41B1D585B3D00C30CC1 /* WTYScrollViewController.m in Sources */,
+				18E67EA61BA6D06800BE0528 /* AppDelegate.m in Sources */,
+				C890BE1A1CFD308B00554A38 /* WTYBaseModel.m in Sources */,
+				C890BE311CFD308B00554A38 /* UIImage+ImagePickerCrop.m in Sources */,
+				C8C8BF861CFD6BF500DBBB70 /* WTYRegisterViewController.m in Sources */,
+				C890BE281CFD308B00554A38 /* NSDictionary+Additions.m in Sources */,
+				C890BE391CFD308B00554A38 /* WTYBlockTest.m in Sources */,
+				C854635E1D2BAA900088A974 /* WTYCurveView.m in Sources */,
+				18E67EA31BA6D06800BE0528 /* main.m in Sources */,
+				C83AB46A1D0D30C10034E671 /* WTYThreadTest.m in Sources */,
+				C8C8BF821CFD6BF500DBBB70 /* WTYLoginSuccessViewController.m in Sources */,
+				C890BE221CFD308B00554A38 /* WTYBaseTableViewCell.m in Sources */,
+				C890BE201CFD308B00554A38 /* WTYBaseScrollView.m in Sources */,
+				C890BE361CFD308B00554A38 /* WTYHTTPRequest.m in Sources */,
+				C87643721D110165004FA3F4 /* Father.m in Sources */,
+				1431F1F71C11E5F000DA4290 /* WTY_TestView.swift in Sources */,
+				C890BE1D1CFD308B00554A38 /* WTYBaseCollectionViewCell.m in Sources */,
+				C890BE2B1CFD308B00554A38 /* UIImage+Additions.m in Sources */,
+				C890BE341CFD308B00554A38 /* WTYClient.m in Sources */,
+				C890BE1F1CFD308B00554A38 /* WTYBaseLabel.m in Sources */,
+				C890BE291CFD308B00554A38 /* NSObject+Additions.m in Sources */,
+				C890BE2E1CFD308B00554A38 /* UIImage+CreateImage.m in Sources */,
+				C890BE191CFD308B00554A38 /* ZToastView.m in Sources */,
+				C890BE2F1CFD308B00554A38 /* UIImage+GIF.m in Sources */,
+				C85FDFC91D018D9C00A00921 /* WTYLoginView.m in Sources */,
+				C890BE271CFD308B00554A38 /* NSDate+Addition.m in Sources */,
+				C890BE1E1CFD308B00554A38 /* WTYBaseImageView.m in Sources */,
+				C890BE2A1CFD308B00554A38 /* NSString+Addition.m in Sources */,
+				C890BE351CFD308B00554A38 /* WTYGetUserInfoReq.m in Sources */,
+				C87643751D110176004FA3F4 /* Son.m in Sources */,
+				C85FDFC61D018D8900A00921 /* WTYLoginModel.m in Sources */,
+				C890BE261CFD308B00554A38 /* NSData+ImageContentType.m in Sources */,
+				C870B4211D585CA600C30CC1 /* WTYTestScrollView.m in Sources */,
+				C8803A151D33455900C969DC /* SpokenPracticeGifView.m in Sources */,
+				C870B41E1D585BB300C30CC1 /* WTYTestTableView.m in Sources */,
+				C890BE381CFD308B00554A38 /* WTYUserInfo.m in Sources */,
+				C890BE251CFD308B00554A38 /* WTYBaseView.m in Sources */,
+				C890BE2D1CFD308B00554A38 /* UIImage+CompressImage.m in Sources */,
+				C8C8BF841CFD6BF500DBBB70 /* WTYLoginViewController.m in Sources */,
+				C890BE171CFD308B00554A38 /* WTYBaseTabBarController.m in Sources */,
+				C890BE241CFD308B00554A38 /* WTYBaseTextView.m in Sources */,
+				C890BE211CFD308B00554A38 /* WTYBaseTableView.m in Sources */,
+				C890BE371CFD308B00554A38 /* WTYRegisterUserReq.m in Sources */,
+				C890BE2C1CFD308B00554A38 /* UIImage+Cache.m in Sources */,
+				C890BE231CFD308B00554A38 /* WTYBaseTextField.m in Sources */,
+				C874F8691D911A2700B8E1BD /* WTYTableViewController.m in Sources */,
+				C890BE181CFD308B00554A38 /* WTYBaseViewController.m in Sources */,
+				C890BE301CFD308B00554A38 /* UIImage+ImageEffects.m in Sources */,
+				C83AB4701D0D31000034E671 /* WTYOperationQueueTest.m in Sources */,
+				C890BE321CFD308B00554A38 /* UIView+Addition.m in Sources */,
+				C890BE161CFD308B00554A38 /* WTYBaseNavigationController.m in Sources */,
+				C83AB46D1D0D30CF0034E671 /* WTYGCDTest.m in Sources */,
+				C8803A181D3353B400C969DC /* WTYRefreshHeader.m in Sources */,
+				C890BE1C1CFD308B00554A38 /* WTYBaseCollectionView.m in Sources */,
+				C890BE1B1CFD308B00554A38 /* WTYBaseButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E67EB21BA6D06800BE0528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C8BF851CFD6BF500DBBB70 /* WTYLoginViewController.m in Sources */,
+				C83BE7091CC7394300C25E08 /* WTYClientTestCase.m in Sources */,
+				C88BD3051D7680D100D140E1 /* WTYNSStringTestCase.m in Sources */,
+				C8C8BF871CFD6BF500DBBB70 /* WTYRegisterViewController.m in Sources */,
+				C833CDF21D83B71D0005012E /* WTYNSArrayTestCase.m in Sources */,
+				C8C8BF831CFD6BF500DBBB70 /* WTYLoginSuccessViewController.m in Sources */,
+				C85F768A1CFEDA0400863AAA /* WTYBaseModelTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E67EB81BA6D06800BE0528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E67E9C1BA6D06800BE0528 /* WTYBaseProject */;
+			targetProxy = 18E67EB71BA6D06800BE0528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E67EAA1BA6D06800BE0528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E67EAB1BA6D06800BE0528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E67EAF1BA6D06800BE0528 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E67EB01BA6D06800BE0528 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E67EBE1BA6D06800BE0528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E67EBF1BA6D06800BE0528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E67EC11BA6D06800BE0528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12F644714719E9703BC42CA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WTYBaseProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WTYBaseProject/WTYBaseProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E67EC21BA6D06800BE0528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64634F7699236501697CAAE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WTYBaseProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WTYBaseProject/WTYBaseProject-Bridging-Header.h";
+				"SWIFT_OPTIMIZATION_LEVEL[arch=*]" = "-O";
+			};
+			name = Release;
+		};
+		18E67EC41BA6D06800BE0528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/Toast\"",
+				);
+				INFOPLIST_FILE = WTYBaseProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTYBaseProject.app/WTYBaseProject";
+			};
+			name = Debug;
+		};
+		18E67EC51BA6D06800BE0528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/Toast\"",
+				);
+				INFOPLIST_FILE = WTYBaseProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTYBaseProject.app/WTYBaseProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E67E981BA6D06800BE0528 /* Build configuration list for PBXProject "WTYBaseProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E67EBE1BA6D06800BE0528 /* Debug */,
+				18E67EBF1BA6D06800BE0528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E67EC01BA6D06800BE0528 /* Build configuration list for PBXNativeTarget "WTYBaseProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E67EC11BA6D06800BE0528 /* Debug */,
+				18E67EC21BA6D06800BE0528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E67EC31BA6D06800BE0528 /* Build configuration list for PBXNativeTarget "WTYBaseProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E67EC41BA6D06800BE0528 /* Debug */,
+				18E67EC51BA6D06800BE0528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E67E951BA6D06800BE0528 /* Project object */;
+}
